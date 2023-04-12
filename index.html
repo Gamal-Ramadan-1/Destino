@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <link rel="icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
   <title>DESTINO</title>
 </head>
 
@@ -16,7 +23,7 @@
     tailwind.config = {
       theme: {
         container: {
-          center: true,
+          center:true
         },
       }
     }
